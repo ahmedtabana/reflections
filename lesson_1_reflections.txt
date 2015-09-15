@@ -1,0 +1,63 @@
+Using diff: 
+allows me to find differences quickly
+without having to go through code manually
+saves my time and energy
+
+Access to entire history of versions of program:
+I can quickly revert back to old documents
+in case I made an error. 
+It is also a backup for my files.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros: 
+flexibility, I can decide when to make a commit.
+
+cons: 
+the automatic commit might be meaningless, example commiting when
+typing in the middle of a line.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+because some of the files might be related to each other and changes in one file would affect other files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows all the commits that have been made, with the commit id, author,date and message. 
+I can use git diff to see changes in commits, added lines, removed lines. 
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Very confident, I can always revert back quickly, I can find the commit that caused the break and I can use diff to find exact changes that produced the bug. 
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+All my future programming projects and work
+
+
+Git commands
+
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff original-id updated-id
+will do this. It takes two arguments - the two commit ids to compare. 
+
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone
+ will do this. It takes one argument - the url of the repository to copy. 
+
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout 
+will do this. It takes one argument - the commit ID to restore. 
+
+
+Show the commits made in this repository, starting with the most recent.
+
+git log 
+will do this. It doesn't take any arguments.
