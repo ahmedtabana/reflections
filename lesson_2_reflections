@@ -1,7 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-when I initialize a git repository using git init. I get a .git hidden file on my directory. I can view .git files using ls -a. I can then use git status. I need to do this in order to be able to track versions of my files. 
+when I initialize a git repository using git init. I get a .git hidden file on my directory (meta data for history). I can view .git files using ls -a. I can then use git status. I need to do this in order to be able to track versions of my files. 
 
+If I use git log and get an error
+fatal: bad default revision head.
+
+git init: 
+creates a git respository, and creates the .git files. 
+
+git status: 
+shows the status of all the files on the repository
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
