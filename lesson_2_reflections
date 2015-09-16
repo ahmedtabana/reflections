@@ -14,3 +14,13 @@ shows the status of all the files on the repository
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 staging area is an intermidate stage that allows us to choose what files in the directory we wish to commit. 
+
+git diff id id : 
+shows the difference between 2 commits in the respository
+
+git diff: 
+shows difference between files in working directory and staging area. staging area is latest commit unless added things to it. 
+
+git diff --staged: 
+final step, difference between files in staging area and respository. 
+
