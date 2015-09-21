@@ -34,4 +34,42 @@ or before that using git diff
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-when we have different versions of the game, for example creating an easy mode for a game but it is not official yet. italian version of the game. 
+when we have different versions of the game, for example creating an easy mode for a game but it is not official yet. italian version of the game.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams can show me which branches are reachable and which are not. also parents of each branch. 
+
+command:
+git log --graph --oneline master coins
+(master and coins are two branches that we want to visualize)
+
+what is detached head message? 
+we get this message when we checkout a commit by its id, not when we checkout a branch. 
+
+we can make changes and commit them. However, now if we checkout another branch, we will lose this information. since we cannot track it back unless we keep and save the commit id.
+
+to create a new branch from here to keep the changes, use:
+git checkout -b new_branch_name
+this is equivalent to: 
+git branch new_branch_name
+git checkout new_branch_name
+
+merging: 
+
+git merge master coins
+(order of merging branches does not matter, merge always works on the checked out branch, merging files and pointing to the checked out branch label)
+
+when we do a diff between two commits, but one commit is not the parent of the other one, we will see many changes
+
+command: 
+git show id
+(show the diff of this commit id with respect to its parent)
+
+to delete a branch label after merging:
+command:
+git branch -d coins
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging two branches together, makes all the changes available in the result. it is easier to visualize using a diagram.
