@@ -73,3 +73,7 @@ git branch -d coins
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 merging two branches together, makes all the changes available in the result. it is easier to visualize using a diagram.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+merging automatically can be good because it reduces the time we have to take. However, we can have conflicts on merging, when two people modify the same line of code. Git doesn't know which version to keep, so we have to go into the code and remove/add all the stuff we want. 
