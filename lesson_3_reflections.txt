@@ -30,3 +30,19 @@ branch can be used on local machine when we have new feature to work on.
 
 git remote -v
 shows where your remote is pointing
+
+
+locally we have master and origin/master. 
+whenever we clone a repository from github, we automatically get a 
+remote called origin. 
+
+when we make a commit locally, master gets updated but origin/master 
+is not updated. 
+
+git pull origin master = git fetch origin
+						 git merge master origin/master
+
+git fetch origin: 
+updates all the local copies of every branch from the origin remote.
+
+we can inspect the local copies by running: git log origin/master
