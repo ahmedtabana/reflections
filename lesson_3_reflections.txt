@@ -1,0 +1,12 @@
+command: 
+git remote 
+(show the available remotes)
+
+git remote add remote_name url 
+
+to verify: 
+git remote -v
+v(verbose)
+
+
+git push remote_name branchName_to_push
