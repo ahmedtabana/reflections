@@ -10,3 +10,7 @@ v(verbose)
 
 
 git push remote_name branchName_to_push
+
+
+When would you want to use a remote repository rather than keeping all your work local?
+When I have many people working on the project.
