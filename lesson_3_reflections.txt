@@ -14,3 +14,8 @@ git push remote_name branchName_to_push
 
 When would you want to use a remote repository rather than keeping all your work local?
 When I have many people working on the project.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I'm not sure why, maybe because we might have things that we don't need. conflicts that we need to take care of.
