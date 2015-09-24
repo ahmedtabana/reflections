@@ -46,3 +46,14 @@ git fetch origin:
 updates all the local copies of every branch from the origin remote.
 
 we can inspect the local copies by running: git log origin/master
+										or: git diff origin/master master
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+So that I can work on my version locally and know how much change has happened with respect to the github origin. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+collaborating without Git or GitHub would be harder, I have to save many copies of my code if I'm not using Git and it would be harder. I can see now how GitHub is really powerful for collaborating my code with others, it makes it easier to make changes to my code and submit these changes to other people using GitHub, they can easily see what changes I've made and they can decide to incorporate my changes while making sure that everything will still work. 
